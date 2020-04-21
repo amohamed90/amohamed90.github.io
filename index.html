@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- additional css file links -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script type="text/javascript" src="js/respond.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+  <title>Alaa</title>
+</head>
+
+<body>
+  <!-- header section -->
+  <header id="header">
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg full-width">
+          <a class="navbar-brand" href="#">Alaa</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active"><a href="#main" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- main section -->
+  <section id="main" class="main d-flex justify-content-center">
+    <div id="particles-js"></div>
+    <div class="main-content align-self-center">
+      <div class="welcome">Welcome</div>
+      <div class="type"><span class="mytext"></span></div>
+      <div class="social-icons">
+        <a href="https://github.com/amohamed90" target="_blank"><i class="fa fa-github fa-lg"></i></a>
+        <a href="https://www.linkedin.com/in/amohamed90/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
+        <a href="https://twitter.com/AlaaMoh90" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+      </div>
+      <a href="#portfolio" class="cta cta-portfolio">Portfolio</a>
+      <a href="#contact" class="cta cta-contact">Contact</a>
+    </div>
+
+    <svg viewBox="0 0 1400 100" class="svg-bottom">
+      <polygon points="0,0 200,100 1200,100 1400,0 1400,100 0,100 0,0" style="fill:white" ;></polygon>
+    </svg>
+  </section>
+
+  <section id="about" class="section-padding about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <img src="img/about.jpg" class="img-fluid" alt="personal-img">
+        </div>
+        <div class="col-md-7">
+          <h3>About Me</h3>
+          <h5>Software Engineer</h5>
+          <p>
+            Hi all! I'm Alaa. I love traveling, exploring, and playing board games. I enjoy solving problems, building things
+            and have a passion for technology. One day during lunch time in my last job, I asked my coworker
+            who was a programmer to show me some code and how things actually work behind the
+            scenes, this was the moment when I got really excited about learning how to code. When I see
+            and compare myself before and after my graduation from Rithm School, I can't even believe how much I've accomplished.
+            It gave me the knowledge to solve problems that are related to the field and beyond that which is a blessing.
+          </p>
+          <p>The best thing for me in this field is that there will always be something new to learn and challenges to
+            tackle. I am so looking forward to starting this new journey and learning something different everyday!
+          </p>
+          <div class="about-social-icons">
+            <a href="https://github.com/amohamed90" target="_blank"><i class="fa fa-github fa-lg"></i></a>
+            <a href="https://www.linkedin.com/in/amohamed90/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
+            <a href="https://twitter.com/AlaaMoh90" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+          </div>
+          <a href="#contact" class="about-contact">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- skills section -->
+  <section class="section-padding exp-skills">
+    <svg viewBox="0 0 1400 100" class="svg-top">
+      <polygon points="0,100 200,0 1200,0 1400,100 1400,0 0,0 0,100" style="fill:white" ;></polygon>
+    </svg>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 education">
+          <div class="section-header">
+            <h3 class="education-h3">Education</h3>
+          </div>
+          <ul>
+            <li>
+              <h5 class="education-h5">Telecommunication Engineering</h5>
+              <div class="school">The Egyptian Russian Univeristy</div>
+            </li>
+            <li>
+              <h5 class="education-h5">Software Engineering Bootcamp</h5>
+              <div class="school">Rithm School</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 experience">
+          <div class="section-header">
+            <h3 class="experience-h3">Experience</h3>
+          </div>
+          <ul>
+            <li>
+              <h5 class="experience-h5">Software Engineer Intern</h5>
+              <h6 class="date">Mar 2020 - Apr 2020</h6>
+              <div class="job">LiveStack(San Francisco, CA)</div>
+            </li>
+            <li>
+              <h5 class="experience-h5">Quantitative Field Associate</h5>
+              <h6 class="date">May 2017 - Feb 2018</h6>
+              <div class="job">PRS INVIVO(Teaneck, NJ)</div>
+            </li>
+            <li>
+              <h5 class="experience-h5">Medical Billing Specialist</h5>
+              <h6 class="date">Sep 2015 - May 2017</h6>
+              <div class="job">HealthWise Women(Hoboken, NJ)</div>
+            </li>
+            <li>
+              <h5 class="experience-h5">Administrative Assisstant</h5>
+              <h6 class="date">Nov 2014 - Jun 2015</h6>
+              <div class="job">GM Financial Inc.(Jersey City, NJ)</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 skills">
+          <div class="section-header">
+            <h3 class="skills-h3">Skills</h3>
+          </div>
+          <ul>
+            <li>
+              <h5 class="skill-h5">Technical Languages</h5>
+              <div class="skill">JavaScript(ES6), Python3</div>
+              <div class="skill">HTML, CSS, SQL</div>
+            </li>
+            <li>
+              <h5 class="skill-h5">Libraries and Frameworks</h5>
+              <div class="skill">React(v16.8), Redux, Node.js, Express.js</div>
+              <div class="skill">PostgreSQL, Flask, Jinja, SQLAlchemy</div>
+              <div class="skill">jQuery, Axios, Jest, Jasmine</div>
+              <div class="skill">Bootstrap4, React-Bootstrap, Sass</div>
+            </li>
+            <li>
+              <h5 class="skill-h5">Tools</h5>
+              <div class="skill">Git</div>
+              <div class="skill">Github</div>
+              <div class="skill">npm</div>
+            </li>
+            <li>
+              <h5 class="skill-h5">Spoken Languages</h5>
+              <div class="skill">Arabic(native)</div>
+              <div class="skill">English(fluent)</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <svg viewBox="0 0 1400 100" class="svg-bottom">
+      <polygon points="0,0 200,100 1200,100 1400,0 1400,100 0,100 0,0" style="fill:white" ;></polygon>
+    </svg>
+  </section>
+
+  <!-- portfolio section -->
+  <section id="portfolio" class="section-padding portfolio">
+    <svg viewBox="0 0 1400 100" class="svg-top">
+      <polygon points="0,100 200,0 1200,0 1400,100 1400,0 0,0 0,100" style="fill:white" ;></polygon>
+    </svg>
+    <div class="container">
+      <div class="row">
+        <div class="section-header text-center full-width">
+          <h3>Portfolio</h3>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center row">
+        <div class="portfolio-container">
+          <div class="portfolio-item col-md-6">
+            <div class="item-content">
+              <a href="https://livestack.video/" target="_blank"><img class="portfolioImg" src="img/LiveStack.png"
+                alt="portfolio-img"></a>
+              <div class="info">
+                <div class="description">A full stack web application that enables users to live stream their content
+                  and
+                  collect payment directly using a stripe software platform, React, React-Router,
+                  PostgreSQL, Express.js, Node.js</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-container">
+          <div class="portfolio-item col-md-6">
+            <div class="item-content">
+              <a href="https://warbler90.herokuapp.com/" target="_blank"><img class="portfolioImg"
+                src="img/Warbler.png" alt="portfolio-img"></a>
+              <div class="info">
+                <div class="description">A twitter clone. Built with Python, Flask, and PostgreSQL</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-container">
+          <div class="portfolio-item col-md-6">
+            <div class="item-content">
+              <a href="https://alaamjoblyfrontend.herokuapp.com/" target="_blank"><img class="portfolioImg"
+                src="img/Jobly.png" alt="portfolio-img"></a>
+              <div class="info">
+                <div class="description">An Indeed clone for a job search. Built with React, Express, and PostgreSQL
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg viewBox="0 0 1400 100" class="svg-bottom">
+      <polygon points="0,0 200,100 1200,100 1400,0 1400,100 0,100 0,0" style="fill:white" ;></polygon>
+    </svg>
+  </section>
+
+  <section id="contact" class="section-padding contact">
+    <svg viewBox="0 0 1400 100" class="svg-top">
+      <polygon points="0,100 200,0 1200,0 1400,100 1400,0 0,0 0,100" style="fill:white" ;></polygon>
+    </svg>
+    <div class="container">
+      <div class="section-header full-width text-center">
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Contact Me</h3>
+          </div>
+        </div>
+      </div>
+
+      <form id="contact-form">
+        <input type="hidden" name="contact_number">
+        <div class="contact-form">
+          <div class="row">
+            <div class="col-md-6">
+              <input type="text" id="name" name="name" placeholder="Enter Name">
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" name="email" placeholder="Enter Email">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <textarea id="message" name="message" rows="10" placeholder="Enter Message"></textarea>
+              <input type="submit" id="submit" value="Send">
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- js file links -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script src="js/particles.min.js"></script>
+  <script src="js/myParticles.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+</body>
+
+</html>

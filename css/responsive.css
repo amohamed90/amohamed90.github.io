@@ -1,0 +1,47 @@
+@media screen and (max-width:991px) {
+  .navbar-nav li.nav-item {
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  .navbar-nav-bg {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .main .type
+	{
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 991px){
+
+	.about .col-md-7
+	{
+		margin-top: 60px;
+	}
+
+	.education, .experience, .about .col-md-7, .skills
+	{
+		text-align: center;
+	}
+
+	.education-h5, .experience-h5 {
+		font-size: 15px;
+	}
+
+	.education-h3, .experience-h3, .skills-h3 {
+		font-size: 20px;
+	}
+
+	.exp-skills h5 {
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.main .type
+	{
+		font-size: 24px;
+	}
+}
