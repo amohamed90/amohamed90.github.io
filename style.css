@@ -418,6 +418,24 @@ canvas {
   margin: 5px 0;
 }
 
+.livestack {
+  text-align: center;
+  margin-left: 140px;
+  color: white;
+}
+
+.warbler {
+  text-align: center;
+  margin-left: 150px;
+  color: white;
+}
+
+.jobly {
+  text-align: center;
+  margin-left: 160px;
+  color: white;
+}
+
 .portfolio {
   color: white;
   background:url(img/projects.jpg);
@@ -444,6 +462,10 @@ canvas {
 .portfolioImg {
   width: 398px;
   height: 256.234px;
+}
+
+.description {
+  margin-top: 10px;
 }
 
 ul.portfolio-project {
